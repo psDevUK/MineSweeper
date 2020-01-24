@@ -1,5 +1,5 @@
-Import-Module -Name UniversalDashboard.Community -RequiredVersion 2.8.1
-Import-Module "C:\UD\MineSweeper2\MS\src\output\UniversalDashboard.UDMineSweeper\UniversalDashboard.UDMineSweeper.psd1"
+Import-Module -Name UniversalDashboard
+Import-Module -Name UniversalDashboard.UDMineSweeper
 Get-UDDashboard | Stop-UDDashboard
 $theme = New-UDTheme -Name "Basic" -Definition @{
     'main'                                                                           = @{
